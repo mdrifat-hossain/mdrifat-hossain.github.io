@@ -121,7 +121,7 @@ export const projects: Project[] = [
       "Flask + MySQL platform for live status, remote control, threshold configuration, and event history.",
     ],
     stack: ["YOLO", "OpenCV", "Python", "Flask", "ESP32", "MySQL", "IoT"],
-    githubUrl: "https://github.com/mdrifat-hossain",
+    githubUrl: "https://github.com/mdrifat-hossain/sentinel-ai-safety-system",
     featured: true,
   },
   {
@@ -137,7 +137,7 @@ export const projects: Project[] = [
       "Conversational assistance layered across every planning module.",
     ],
     stack: ["React", "FastAPI", "MySQL", "LangChain", "AI / LLM"],
-    githubUrl: "https://github.com/mdrifat-hossain",
+    githubUrl: "https://github.com/mdrifat-hossain/LifeLens",
     featured: true,
   },
   {
@@ -153,24 +153,10 @@ export const projects: Project[] = [
       "Movement-density heatmaps and annotated output video with live counters.",
     ],
     stack: ["YOLOv8s", "ByteTrack", "OpenCV", "Python", "Supervision"],
-    githubUrl: "https://github.com/mdrifat-hossain",
+    githubUrl: "https://github.com/mdrifat-hossain/People_Flow_Detection_using_Object_Tracking_Heatmap_Visualization",
     featured: true,
   },
-  {
-    slug: "syncup",
-    name: "SyncUP",
-    role: "Full-Stack Developer",
-    type: "Team Product",
-    description:
-      "An integrated social platform focused on user connectivity, interactive content, and personalized engagement.",
-    highlights: [
-      "Customized feeds, real-time location sharing, and progress tracking.",
-      "Personalized notifications for emergency and productivity alerts.",
-      "Node.js/Express backend with MySQL and Firebase-based services.",
-    ],
-    stack: ["Node.js", "Express.js", "MySQL", "Firebase", "HTML / CSS"],
-    githubUrl: "https://github.com/mdrifat-hossain",
-  },
+
   {
     slug: "football-game",
     name: "Football Game",
@@ -184,7 +170,7 @@ export const projects: Project[] = [
       "OOP-structured game entities, interactions, and gameplay logic.",
     ],
     stack: ["Java", "JavaFX", "OOP"],
-    githubUrl: "https://github.com/mdrifat-hossain",
+    githubUrl: "https://github.com/mdrifat-hossain/Football_Game_with_JavaFX-main",
   },
 ];
 

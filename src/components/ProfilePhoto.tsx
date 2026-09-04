@@ -31,7 +31,7 @@ export default function ProfilePhoto() {
 
       {!errored ? (
         <Image
-          src="/images/profile.png"
+          src="/images/my_profile.png"
           alt="Portrait of Md. Rifat Hossain"
           fill
           sizes="(min-width: 1024px) 384px, 70vw"
