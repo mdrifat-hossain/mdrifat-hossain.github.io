@@ -3,15 +3,13 @@
 import { Mail } from "lucide-react";
 import { socialLinks } from "@/data/content";
 import { cn } from "@/lib/utils";
-import { GithubIcon, LinkedinIcon, FacebookIcon, InstagramIcon, XIcon } from "./BrandIcons";
+import { GithubIcon, LinkedinIcon, XIcon } from "./BrandIcons";
 
 const links = [
   { key: "email", href: socialLinks.email, label: "Email", Icon: Mail },
   { key: "github", href: socialLinks.github, label: "GitHub", Icon: GithubIcon },
   { key: "linkedin", href: socialLinks.linkedin, label: "LinkedIn", Icon: LinkedinIcon },
-  { key: "facebook", href: socialLinks.facebook, label: "Facebook", Icon: FacebookIcon },
   { key: "x", href: socialLinks.x, label: "X", Icon: XIcon },
-  { key: "instagram", href: socialLinks.instagram, label: "Instagram", Icon: InstagramIcon },
 ];
 
 export default function SocialIcons({ className }: { className?: string }) {

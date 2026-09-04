@@ -1,8 +1,8 @@
 "use client";
 
 import { motion } from "motion/react";
-import { GraduationCap, Languages as LanguagesIcon } from "lucide-react";
-import { profile, languages } from "@/data/content";
+import { GraduationCap } from "lucide-react";
+import { profile } from "@/data/content";
 import SectionHeading from "./SectionHeading";
 
 export default function About() {
@@ -56,24 +56,9 @@ export default function About() {
                 <span className="text-right text-ink">Undergraduate TA</span>
               </li>
               <li className="flex justify-between gap-4">
-                <span>Based in</span>
-                <span className="text-ink">{profile.location}</span>
+                <span>Focus</span>
+                <span className="text-right text-ink">AI / ML Systems</span>
               </li>
-            </ul>
-
-            <div className="my-5 h-px bg-border" />
-
-            <div className="mb-3 flex items-center gap-2.5 text-ink">
-              <LanguagesIcon size={18} className="text-violet" />
-              <h3 className="font-[var(--font-display)] text-base font-semibold">Languages</h3>
-            </div>
-            <ul className="space-y-2 text-sm">
-              {languages.map((lang) => (
-                <li key={lang.name} className="flex justify-between gap-4">
-                  <span className="text-ink">{lang.name}</span>
-                  <span className="text-ink-muted">{lang.level}</span>
-                </li>
-              ))}
             </ul>
           </motion.div>
         </div>

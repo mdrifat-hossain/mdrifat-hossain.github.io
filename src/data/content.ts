@@ -12,11 +12,11 @@ export const profile = {
   phone: "+880 1740577455",
   roles: ["AI / ML Engineer", "Full-Stack Developer", "Computer Vision Developer"],
   tagline:
-    "I build intelligent systems — from real-time computer vision to full-stack platforms — that turn hard problems into software people can actually rely on.",
+    "I build AI-powered systems using machine learning, computer vision, and LLMs — from intelligent models to production-ready applications.",
   about: [
-    "I'm a final-year Computer Science & Engineering student at United International University, currently maintaining a 3.87/4.00 CGPA while working as an Undergraduate Teaching Assistant, guiding students through programming labs and technical coursework.",
-    "My focus sits at the intersection of AI/ML, computer vision, and full-stack engineering. I like projects that don't stop at a model in a notebook — Sentinel Intelligence, for example, pairs real-time YOLO detection with IoT hardware and a live monitoring dashboard, and LifeLens AI wraps an LLM-driven decision engine in a production-style web app.",
-    "Outside of coursework and projects, I volunteer with the UN Youth and Students Association of Bangladesh on relief and community-support initiatives, and I'm currently looking for opportunities where I can keep building systems that ship, not just prototypes that demo well.",
+    "I'm a final-year Computer Science & Engineering student at UIU (3.87/4.00 CGPA) and an Undergraduate Teaching Assistant. My engineering focus sits directly at the intersection of AI/ML, computer vision, and full-stack development, with a strong emphasis on building deployable, end-to-end systems.",
+    "Rather than treating deep learning models as isolated academic exercises, I focus on integrating them into practical software architectures. I've been developing applications ranging from real-time computer vision ecosystems—such as Sentinel Intelligence, which pairs YOLO with hardware and live dashboards—to LifeLens AI, an LLM-driven application supported by a robust backend design.",
+    "Ultimately, my goal is to bridge the gap between experimental notebooks and robust engineering. I'm currently seeking roles where I can continue crafting intelligent, production-oriented platforms.",
   ],
 };
 
@@ -47,12 +47,11 @@ export const navItems = [
 // Floating badges around the hero photo.
 export const heroSkills = [
   "Python",
-  "AI / ML",
+  "Machine Learning",
+  "Deep Learning",
   "Computer Vision",
-  "React",
-  "Next.js",
-  "FastAPI",
   "LLM / RAG",
+  "FastAPI",
   "Full-Stack",
 ];
 
@@ -83,7 +82,7 @@ export const skillGroups = [
   },
   {
     title: "Data & Databases",
-    items: ["MySQL", "PostgreSQL", "SQLAlchemy", "NumPy", "Pandas"],
+    items: ["MySQL", "PostgreSQL", "SQLAlchemy", "NumPy", "Pandas", "Matplotlib", "Seaborn"],
   },
   {
     title: "Tools & Platforms",
@@ -252,6 +251,13 @@ export const awards = [
 
 export const volunteering = [
   {
+    title: "Volunteer",
+    org: "United Nations Youth and Students Association of Bangladesh (UNYSAB)",
+    location: "Bangladesh",
+    period: "Apr. 2023 – Present",
+    detail: "Contribute to youth-led community initiatives, social awareness programs, and humanitarian activities organized by UNYSA.",
+  },
+  {
     title: "Relief for Flood-Affected People",
     org: "United Nations Youth and Students Association of Bangladesh (UNYSAB)",
     location: "Feni, Bangladesh",
@@ -267,8 +273,4 @@ export const volunteering = [
   },
 ];
 
-export const languages = [
-  { name: "Bangla", level: "Mother tongue" },
-  { name: "English", level: "Fluent" },
-  { name: "Hindi", level: "Speaking & listening" },
-];
+export const languages = ["Bangla", "English", "Hindi"];

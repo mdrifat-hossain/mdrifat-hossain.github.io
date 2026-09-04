@@ -72,13 +72,13 @@ export default function Loader() {
 
           <div className="relative flex flex-col items-center gap-8">
             <motion.div
-              className="font-[var(--font-display)] text-6xl font-semibold tracking-tight text-ink sm:text-7xl"
+              className="font-[var(--font-display)] text-4xl sm:text-5xl md:text-6xl font-semibold tracking-tight text-ink text-center"
               initial={{ opacity: 0, y: 12 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, ease: "easeOut" }}
             >
               <span className="bg-gradient-to-br from-ink via-violet to-blue bg-clip-text text-transparent">
-                {profile.initials}
+                {profile.name}
               </span>
             </motion.div>
 
