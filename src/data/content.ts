@@ -30,7 +30,8 @@ export const socialLinks = {
   instagram: "https://instagram.com/",
 };
 
-export const resumeUrl = "/resume.pdf";
+export const resumeUrl =
+  "https://drive.google.com/file/d/17jsrXUDLa3WqsUeQHThSkxJI1OIXqWLx/view?usp=drive_link";
 
 export const navItems = [
   { label: "Home", href: "#home" },
@@ -108,6 +109,31 @@ export type Project = {
 };
 
 export const projects: Project[] = [
+  {
+    slug: "supervisorx",
+    name: "SupervisorX",
+    role: "AI & Full-Stack Developer",
+    type: "Solo Product",
+    description:
+      "A full-stack AI research assistant that automates academic paper discovery, LLM-based relevance screening, document analysis, multi-paper comparison, and research report generation.",
+    highlights: [
+      "Automated academic paper discovery, LLM-based relevance screening, document analysis, and multi-paper research report generation.",
+      "Retrieval-Augmented Generation (RAG) pipeline using section-aware PDF extraction, 2048-dimensional embeddings, and PostgreSQL pgvector for exact page-level citations.",
+      "Multi-model LLM orchestration using Google Gemini and OpenRouter, with Vision-Language Models for analyzing diagrams and figures, containerized with Docker Compose.",
+    ],
+    stack: [
+      "Next.js",
+      "FastAPI",
+      "LangChain",
+      "Gemini",
+      "OpenRouter",
+      "PostgreSQL",
+      "pgvector",
+      "VLMs",
+    ],
+    githubUrl: "https://github.com/mdrifat-hossain/supervisorx",
+    featured: true,
+  },
   {
     slug: "sentinel-intelligence",
     name: "Sentinel Intelligence",

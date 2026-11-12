@@ -56,7 +56,8 @@ export default function Navbar() {
         <a
           data-cursor-hover
           href={resumeUrl}
-          download="Md_Rifat_Hossain.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
           className="ml-1 hidden items-center gap-1.5 rounded-xl bg-gradient-to-r from-violet-dim to-blue px-4 py-2 text-sm font-medium text-white shadow-[0_0_0_1px_rgba(255,255,255,0.08)_inset] transition-transform duration-200 hover:scale-[1.03] md:flex"
         >
           <Download size={15} strokeWidth={2.2} />
@@ -106,7 +107,8 @@ export default function Navbar() {
             </ul>
             <a
               href={resumeUrl}
-              download="Md_Rifat_Hossain.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
               onClick={() => setOpen(false)}
               className="mt-2 flex items-center justify-center gap-1.5 rounded-xl bg-gradient-to-r from-violet-dim to-blue px-4 py-2.5 text-sm font-medium text-white"
             >

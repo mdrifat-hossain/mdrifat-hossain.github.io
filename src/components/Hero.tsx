@@ -137,7 +137,8 @@ export default function Hero() {
             <a
               data-cursor-hover
               href={resumeUrl}
-              download="Md_Rifat_Hossain.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-sm font-medium text-ink-muted underline decoration-border underline-offset-4 transition-colors hover:text-ink hover:decoration-violet"
             >
               Download Resume
